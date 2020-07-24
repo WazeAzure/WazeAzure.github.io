@@ -15,8 +15,9 @@ ul	{
 	list-style:none;
 }
 .header-right {
-	float: left;
+	float: right;
 	list-style:none;
 	padding: auto;
+	color:white;
 	display: inline-block;
 }
