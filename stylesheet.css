@@ -20,4 +20,5 @@ header {
 	list-style	: none;
 	color		: white;
 	line-height	: 65px;
+	float		: right;
 }
