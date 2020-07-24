@@ -15,6 +15,6 @@ header {
 .header-right {
 	float: left;
 	list-style:none;
-	padding: 20px;
+	padding: auto;
 	display: inline-block;
 }
