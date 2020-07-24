@@ -1,18 +1,20 @@
-.container-head{
+header {
+	display: inline-block;
 	width: 100%;
 	height: 50px;
-	background-color:rgba(0,0,0,0.5);
-	list-style:none;
+	background-color:rgba(0,0,0,0.8);
 	z-index:10;
 }
 
-.container-head h3 {
-	bakcground-color: rgba(255,99,71,0.4);
-	border-radius: 5px;
-	font-size=10px;
-	z-index=10;
+
+.header-left {
+	color: white;
+	font-size: 50px;
 }
 
-.container-head li{
-	float:right;
+.header-right {
+	float: left;
+	list-style:none;
+	padding: 20px;
+	display: inline-block;
 }
