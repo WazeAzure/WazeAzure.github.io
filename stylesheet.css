@@ -1,23 +1,23 @@
 header {
-	display: inline-block;
-	width: 100%;
-	height: 50px;
-	background-color:rgba(0,0,0,0.8);
-	z-index:10;
+	background-color	: rgba(36,22,53,0.7);
+	width			: 100%;
+	height			: 65px;
 }
 
+.header-container {
+	width		: 1170px;
+	text-align	: center;
+	margin		: auto:
+}
 
 .header-left {
-	color: white;
-	font-size: 50px;
+	color		: white;
+	font-size	: 30px;
+	line-height	: 65px;
 }
-ul	{
-	list-style:none;
-}
+
 .header-right {
-	float: right;
-	list-style:none;
-	padding: auto;
-	color:white;
-	display: inline-block;
+	list-style	: none;
+	color		: white;
+	line-height	: 65px;
 }
