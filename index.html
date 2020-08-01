@@ -4,18 +4,26 @@
 	<title>My New Website</title>
 	<link rel="stylesheet" href="stylesheet.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body>
+		<div class="modal-out">
+			<div class="modal-inner">
+				<i id="close" class="fa fa-close"></i>
+				<h3>How To See It</h3>
+				<p>Read From Above, then Move to Down</p>
+			</div>
+		</div>
 		<header>
 			<div class="header-container">
 				<div class="header-left">
-					<h3>WazeAzure</h3>
+					<h3 id="top"><a href="#">WazeAzure</a></h3>
 				</div>
 				<div class="header-right">
 					<ul>
-						<li>Home</li>
-						<li>About</li>
-						<li>Contact</li>
+						<li><a href="#">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="contact.html">Contact</a></li>
 					</ul>
 				</div>
 			</div>
@@ -23,11 +31,35 @@
 		<div class="body">
 			<div class="body-container">
 				<div class="headline">
-					<h1>Story of My Life</h1>
-					<p>This website is about my life, or other way, my <>Curricula Vitae</span></p>
+					<div class="main-up">
+						<h1>Story of My Life</h1>
+						<p>This website is about my life, or other way, my Curriculum vitae</p>
+						<a id="modal" href="#"><i class="fa fa-search">  See What I'm Up to  </i></a>
+					</div>
 				</div>
-				<div class="main-up">
-					<img src="resource\ipad.png" alt="Ipad">
+				<div class="things-i-like">
+					<div class="things-i-like-container">
+						<div class="like-history">
+							<div class="fa fa-">
+
+							</div>
+						</div>
+						<div class="like-study">
+							<div class="study-icon">
+								<i class="fa fa-mortar-board"></i>
+							</div>
+							<div class="study-text">
+								
+							</div>
+						</div>
+						<div class="like-hobby">
+
+						</div>
+						<div class="like-skills">
+
+
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
